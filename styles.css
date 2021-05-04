@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+    font-family: 'Nunito', sans-serif ;
+}
+
+body {
+    height: 100vh;
+    background-color: #ffffff;
+    background-image: linear-gradient(62deg, #fea06b 0%, #000000 100%);
+}
+
+.main-container{
+    width: 455px;
+    position: relative;
+    margin:0 auto;
+    top: calc(50% - 295px);
+}
+
+.first-container {
+    display: inline-block;
+    width: 225px;
+    height: 225px;
+    border-radius: 100% 0 0 0;
+    background-color: #408462;
+}
+.second-container {
+    display: inline-block;
+    width: 225px;
+    height: 225px;
+    border-radius: 0 100% 0 0;
+    background-color: #453a65;
+}
+.third-container {
+    display: inline-block;
+    width: 225px;
+    height: 225px;
+    border-radius: 0 0 0 100%;
+    background-color: #714f43;
+}
+.fourth-container {
+   display: inline-block;
+   width: 225px;
+   height: 225px;
+   border-radius: 0 0 100% 0;
+   background-color: #7d7e50;
+}
+.main__button {
+    position: absolute;
+    left: calc(10% - 86px);
+    top: calc(50% - 61px);
+    padding: 40px;
+    width: 53rem;
+    border: none;
+    box-shadow: 4px 5px 6px rgb(0 0 0 / 67%);
+    font-size: 4rem;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif ;
+    font-weight: 700;
+    line-height: 4rem;
+    background-color:#2e2e37 ;
+    color: #fff;
+}
+.hide {
+    display: none;
+}
+
+#brown.ligth{
+    background-color: #7EEDB6;
+}
+
+#violet.ligth{
+    background-color: #A083F7;
+}
+
+#gold.ligth{
+    background-color: #E09A82;
+}
+
+#fuchsia.ligth{
+    background-color: #DCDD83;
+}
+#time{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+#timeToAnswer {
+    font-size: 9rem;
+    font-weight: 400;
+    color: #fff;
+    margin-left: calc(50% - 164px);   
+    width: 10px;
+  
+}
+.timeToAnswerAnimation {
+    -webkit-animation: scale-up-center 1s 1s infinite reverse backwards;
+    animation: scale-up-center 1s 1s infinite reverse backwards;
+}
+.time-info{
+    display: flex;   
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
